@@ -2,7 +2,7 @@
 var countdownTimer, countdownTarget, answers, questionId, correct, answer_list = new Array(), key= {}, isPolling = false;
 
 //constants
-var questionTime = 10000; // 15 seconds from question start to question end
+var questionTime = 15000; // 15 seconds from question start to question end
 var showNames = false; // Show names of answerers with graph
 
 $(document).ready(function() {
