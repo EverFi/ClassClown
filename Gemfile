@@ -1,8 +1,9 @@
 source :rubygems
 
 gem 'sinatra'
+gem 'async_sinatra', :require => 'sinatra/async'
 gem 'json'
-gem "active_support"
+gem 'active_support'
 
 gem 'shotgun'
 gem 'pusher'
