@@ -24,7 +24,7 @@ class ClassClown < Sinatra::Base
 
   get "/answer_question" do
     question_text = params[:question_text]
-    question_id = Digest::MD5.digest question_text
+    question_id = Digest::MD5.hexdigest question_text
     answer = params[:answer]
     startPoll = {
       :command => "startPoll",
