@@ -3,6 +3,7 @@ Bundler.setup
 
 require 'sinatra'
 require 'active_support'
+require 'json'
 require 'pusher'
 require 'digest/md5'
 
