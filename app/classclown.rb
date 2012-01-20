@@ -31,11 +31,12 @@ class ClassClown < Sinatra::Base
       :question => question_text,
       :question_id => question_id,
       :answers => [
-        {"name" => "A" , "answer" => "First answer"},
-        {"name" => "B" , "answer" => "Also an answer"},
-        {"name" => "C" , "answer" => "Third answer"}
+        {"name" => "A" , "answer" => "Piggy Bank"},
+        {"name" => "B" , "answer" => "Under my mattress"},
+        {"name" => "C" , "answer" => "That nice Nigerian gentleman who keeps emailing me"},
+        {"name" => "D" , "answer" => "529"}
       ],
-      "correct" => "C"
+      "correct" => "D"
     }
 
     answer = {
