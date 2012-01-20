@@ -1,0 +1,101 @@
+body
+{
+	background-color:white;
+	font-family:Helvetica, Arial;
+	color:black;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+	overflow-y:hidden;
+	padding:0px;
+	margin:0px;
+}
+
+#question
+{
+	font-size:80px;
+	text-align:center;
+	top:1%;
+	height:20%;
+	width:100%;
+	position:absolute;
+	font-weight:bold;
+}
+
+#timer
+{
+	font-size:300px;
+	right:5%;
+	bottom:5%;
+	position:absolute;
+	font-weight:bold;
+}
+
+#counter
+{
+	left:1%;
+	bottom:5%;
+	position:absolute;
+	width:98%;
+	vertical-align:bottom;
+	font-size:72px;
+}
+
+#poller
+{
+	z-index:1;
+}
+
+#chart
+{
+	left:1%;
+	bottom:5%;
+	position:absolute;
+	height:70%;
+	width:98%;
+	z-index:2;
+	font-size:60px;
+}
+
+.name
+{
+	float:left;
+	display:inline-block;
+	margin-right:40px;
+	padding-top:10px;
+}
+
+.row
+{
+	display:block;
+	width:100%;
+	margin-top:50px;
+	margin-bottom:50px;
+	bottom:0px;
+	margin-left:25px;
+}
+
+.bar
+{
+	display:block;
+	float:left;
+	background-color:orange;
+	border:solid 3px black;
+	height:100px;
+	margin-right:25px;
+}
+
+.correct
+{
+	color:green;
+}
+
+.correct .bar
+{
+	background-color:forestgreen;
+}
+
+.pct
+{
+	padding-top:10px;
+}

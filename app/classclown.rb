@@ -21,6 +21,10 @@ class ClassClown < Sinatra::Base
   get "/" do
     erb :index
   end
+  
+  get "/quizzy" do
+    erb :quizzy
+  end
 
   get "/answer_question" do
     question_text = params[:question_text]
